@@ -1,0 +1,43 @@
+:host {
+    --zold: rgb(114,221,120);
+}
+.homecontainer {
+    margin: 0.5rem;
+}
+.title {
+    margin-top: 2rem;
+    font-size: 3rem;
+
+}
+.best {
+    display: block;
+    margin-bottom: -1rem;
+}
+.rest  {
+    display: block;
+    font-weight: bolder;
+    margin-bottom: -0.7rem;
+}
+.moments {
+    font-weight: bolder;
+    color: var(--zold);
+}
+img {
+    display: block;
+    width: 100%;
+}
+.header {
+    font-weight: bolder;
+    font-size: 2rem;
+    display: block;
+
+}
+.title2 {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+.initial {
+    font-size: 5rem;
+    color: var(--zold);
+}

@@ -42,4 +42,14 @@
     border-color: aqua;
     border-radius: 0.5rem;
     color: aqua;
+    border-style: solid;
+}
+@media screen and (width < 992) {
+    .rent-button {
+        display: none;
+
+    }
+    .searchfield {
+        display: none;
+    }
 }

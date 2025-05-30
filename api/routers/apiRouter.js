@@ -13,7 +13,7 @@ router.get("/berlesek", async (req,res) => {
 })
 router.get("/berlesek/:id", async (req,res) => {
     try {
-        const rows = await berlesekService.getBerlesById(params["id"])
+        const rows = await berlesekService.getBerlesById(req.params["id"])
         res.status(200)
         res.json(rows)
     } catch (error) {
