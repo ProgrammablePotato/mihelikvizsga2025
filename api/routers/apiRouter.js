@@ -31,7 +31,8 @@ router.post("/berlesek", async (req,res) => {
 })
 router.delete("/berlesek", async (req,res) => {
     try {
-        
+        console.log("Delete works :P")
+        res.status(200)
     } catch (error) {
         console.log(error)
     }
