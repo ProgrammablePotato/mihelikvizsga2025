@@ -1,0 +1,45 @@
+:host {
+    --zold: rgb(114,221,120);
+}
+
+.navbar-container {
+    position: relative;
+    display: flex;
+    background-color: black;
+    padding: 1rem;
+}
+.title-container {
+    display: flex;
+    flex: 2;
+}
+.title {
+    margin: auto;
+    flex: 1;
+    color: var(--zold);
+}
+.rent-button {
+    margin: auto;
+    flex: 1;
+    color: white;
+    text-decoration: none;
+
+}
+.searchfield {
+    width: 100%;
+    flex:1;
+    display: flex;
+}
+.searchfield input {
+    padding: 0.5rem;
+    display: block;
+    margin-right: 0.5rem;
+        border-radius: 0.5rem;
+}
+.searchfield button {
+    display: block;
+    width: 20%;
+    background-color: black;
+    border-color: aqua;
+    border-radius: 0.5rem;
+    color: aqua;
+}
